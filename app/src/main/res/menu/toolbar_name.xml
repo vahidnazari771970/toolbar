@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:title="Setting"
+        android:id="@+id/setting"/>
+    <item
+        android:title="About"
+        android:id="@+id/about"/>-->
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_2"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Basket"
+        android:id="@+id/basket"
+        android:icon="@drawable/cart_2"
+        app:showAsAction="always"/>
+    <item
+        android:title="More"
+        android:id="@+id/more"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_dehaze_black_24dp">
+        <menu>
+            <item
+                android:title="Setting"
+                android:id="@+id/setting"
+                android:orderInCategory="2"/>
+            <item
+                android:title="About"
+                android:id="@+id/about"
+                android:orderInCategory="1"/>
+
+
+        </menu>
+
+
+
+
+
+    </item>
+
+
+
+
+</menu>
